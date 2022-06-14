@@ -1,0 +1,101 @@
+body {
+	background: #AAA6BC;
+}
+
+.main-navbar {
+	background: #AAA6BC;
+}
+
+.title-tagline {
+    font-size: 3rem;
+}
+
+.title-wd {
+    font-size: 3rem;
+}
+
+.title-name {
+    margin: 1% 0 0 0;
+    padding: 1% 0 0 0;
+}
+
+.title-text {
+    margin: 3% 0;
+}
+
+.contact-button {
+    text-decoration: none;
+}
+
+/*Button*/
+
+
+.btn {
+    margin: 5% 0 0 0;
+    border-radius: 32px;
+}
+
+a span {
+    transition: 1.0s;
+}
+
+a:hover span:nth-child(1) {
+    margin: 30px;
+
+}
+
+a:hover span:nth-child(1)::after {
+    content: "   "
+
+}
+
+a:hover span:nth-child(2) {
+    margin-left: 40px;
+}
+
+a:hover span {
+    color: #6C442E;
+    text-shadow: 0 0 10px #6C442E,
+        0 0 20px #6C442E,
+        0 0 40px #6C442E,
+        0 0 80px #6C442E,
+        0 0 120px #6C442E,
+        0 0 120px #6C442E,
+}
+
+
+
+
+
+button span {
+    transition: 1.0s;
+}
+
+button:hover span:nth-child(1) {
+    margin: 30px;
+
+}
+
+button:hover span:nth-child(1)::after {
+    content: "   "
+
+}
+
+button:hover span:nth-child(2) {
+    margin-left: 40px;
+}
+
+button:hover span {
+    color: #6C442E;
+    text-shadow: 0 0 10px #6C442E,
+        0 0 20px #6C442E,
+        0 0 40px #6C442E,
+        0 0 80px #6C442E,
+        0 0 120px #6C442E,
+        0 0 120px #6C442E,
+}
+
+.footer-p {
+	line-height: 2.2;
+    margin:0 0 -10px 0;
+}
