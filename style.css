@@ -1,6 +1,5 @@
 body {
     background: #0073a2;
-
     font-family: Open Sans, sans-serif;
     color: #white;
 
@@ -13,39 +12,28 @@ a {
 
 .title-img {
     width: 30%;
-
-
 }
 
 .cloud-img1 {
-
     margin-left: 30%;
     padding-left: 10%;
-
 }
 
 .title-name,
 .title-wd {
 
-    /*font-size: 5em;*/
     font-weight: bold;
-    /*letter-spacing: 5px;*/
     color: #301D12;
     margin: 0 0 5% 0;
-
-
     overflow: hidden;
-
     background-color: #fff;
     background-image: linear-gradient(315deg, #545C8C 0%, #F8F8E6FF 90%);
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 15s linear infinite;
-    /* background-clip: text; */
     -webkit-background-clip: text;
     color: transparent;
     -webkit-Text-fill-color: fgba(255, 255, 255, 0);
-
 }
 
 .title-text1 {
@@ -56,7 +44,6 @@ a {
 
     .title-img {
         transform: rotate(0);
-
         width: 40%;
         position: static;
         padding: 20px 0;
@@ -78,7 +65,7 @@ a {
 }
 
 .main-navbar {
- 
+
     background: #0571A1;
 }
 
@@ -123,7 +110,7 @@ a {
     font-family: Open Sans, sans-serif;
     text-align: center;
     padding: 20px;
-    /*background-color: #AAA6BC;*/
+
     color: #white;
 }
 
